@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            width: 190px;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input{
+            height: 10px;
+            padding: 10px;
+        }
+        p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    
+    
+    <div class="main">
+        <div>
+            <input class="email" type="email" placeholder="Enter Your Email">
+            <p class="error"></p>  
+        </div>
+
+        <div>
+            <input class="username" type="text" placeholder="Enter Your Name">
+            <p class="nameerr"></p>
+        </div>
+
+        <div>
+            <input class="result" type="number" placeholder="Result">
+            <p class="resulterr"></p>  
+        </div>
+        <button class="btn">Submit</button> 
+    </div>
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>
